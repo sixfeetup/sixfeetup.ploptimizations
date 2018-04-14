@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <registry>
-<!-- -*- extra stuff goes here -*- -->
-
+  <record name="plone.resources.requirejs">
+    <value>++plone++sixfeetup.ploptimizations/js/require.min.js</value>
+  </record>
 </registry>
