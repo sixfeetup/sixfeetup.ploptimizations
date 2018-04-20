@@ -18,4 +18,11 @@
       directory="static"
       />
 
+  <browser:page
+    for="*"
+    name="config.js"
+    class=".configjs.ConfigJsView"
+    permission="zope.Public"
+    layer="sixfeetup.ploptimizations.interfaces.ISixfeetupPloptimizationsLayer" />
+
 </configure>
